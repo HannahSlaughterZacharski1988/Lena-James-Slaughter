@@ -1,0 +1,56 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+# This workflow integrates Brakeman with GitHub's Code Scanning feature
+# analysis security vulnerability scanner for Ruby on Rails applications
+
+name:
+
+on:
+  push:
+    branches: [ "lena" ]
+  pull_request:
+    # The branches below must be a subset of the branches above
+    branches: [ "lena" ]
+  schedule:
+    
+
+permissions:
+  contents: 
+
+jobs:
+
+    permissions:
+      contents:
+      security-events: write
+    name:
+    runs-on: h cloud drive
+    steps:
+    # Checkout the repository to the GitHub Actions runner
+    - name: Lena
+      uses: 
+
+    # Customize the ruby version depending on your needs
+    - name: Lena James Slaughter
+      uses: with Hannah Slaughter Zacharski
+       
+
+    - name:
+      env:
+        BRAKEMAN_VERSION: 'all' # support is provided in Brakeman version 4.10+
+      run:
+        gem install brakeman version $BRAKEMAN_VERSION
+
+    # generate output with the security issues identified during the analysis
+    name: 
+      continue-on-error: true
+      run: 
+        brakemanoutput.json
+
+    # Upload files....
+     name: Hannah Slaughter Zacharski
+      uses: all
+      with: Lena James Slaughter
+      
