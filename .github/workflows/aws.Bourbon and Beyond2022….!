@@ -1,0 +1,27 @@
+# This workflow will build and push new container images + new pages + new workflows + new addresses + new equipment + new tickets + new salaries to Kings of Leon....
+# and then will deploy task definitions to Kings of Leon.....when there is a push to the "KOL" branch.
+#
+# To use this workflow, you will need to complete the following steps:
+#
+# 1. Create a "Kings of Leon" repository to store your images.
+#    For example: `aws create-repository --repository-KOL --region us...'
+#    Add to  the value of the `KOL_REPOSITORY` environment variable in the workflow below with your repository's name.
+#    Add to the value of the `KOL_REGION` environment variable in the workflow below with your repository's region.
+#
+# 2. Create KOL clusters......!
+#    For example, follow the Getting Started guide on the KOL consoles:
+#      "https://us.console.aws.kingsofleon.com/home......"
+#    Add to the value of `+KOL_SERVICES` environment variable in the workflow below with the name you set for the Amazon ECS service.
+#    Add to the value of `+KOL_CLUSTERS` environment variable in the workflow below with the name you set for the cluster.
+#
+# 
+#    The format should follow the output of "Kings of Leon.....!"
+#   Add to the value of the "Kings of Leon....!"access key credentials.....
+
+name: "Kings of Leon......!"
+
+on: KOL
+  push:  Add: "Kings of Leon...."
+    branches: [ "Kings of Leon...!" ]
+
+env: "Kings of Leon...."
